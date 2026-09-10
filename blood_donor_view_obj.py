@@ -107,24 +107,24 @@ class BloodDonorManager:
         except Exception as e:
             print(e)
 
-
-donor_instance=BloodDonorManager()      #creating an object.No meed to call an obj as its already inside constructor
-
-# donor_instance.post(name="Surya",blood_group="AB+",phone="945697983",city="Kochi",last_donation=datetime.datetime.today())
-# donor_instance.post(name="Ann",blood_group="A+",phone="949794567",city="Kaloor",last_donation=datetime.datetime.today())
-# donor_instance.post(name="Athira",blood_group="B+",phone="7736860528",city="Tvm",last_donation=datetime.datetime.today())
-
-donor_instance.get()
-
-print("------------Retreive using id--------------")
-
-donor_instance.retrieve(id=10)
-
-print("-----------delete operation-------------")
-donor_instance.delete(id=7)
-donor_instance.get()
-
-
-print("--------------update operation----------------")
-donor_instance.put(11,city="Calicut")
-donor_instance.get()
+#
+# donor_instance=BloodDonorManager()      #creating an object.No meed to call an obj as its already inside constructor
+#
+# # donor_instance.post(name="Surya",blood_group="AB+",phone="945697983",city="Kochi",last_donation=datetime.datetime.today())
+# # donor_instance.post(name="Ann",blood_group="A+",phone="949794567",city="Kaloor",last_donation=datetime.datetime.today())
+# # donor_instance.post(name="Athira",blood_group="B+",phone="7736860528",city="Tvm",last_donation=datetime.datetime.today())
+#
+# donor_instance.get()
+#
+# print("------------Retreive using id--------------")
+#
+# donor_instance.retrieve(id=10)
+#
+# print("-----------delete operation-------------")
+# donor_instance.delete(id=7)
+# donor_instance.get()
+#
+#
+# print("--------------update operation----------------")
+# donor_instance.put(11,city="Calicut")
+# donor_instance.get()
